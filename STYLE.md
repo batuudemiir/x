@@ -50,15 +50,21 @@ draft once more asking: "does this hint a bot wrote it?" If yes, rewrite.
 
 ## Do
 - Lowercase, conversational openings.
-- One concrete observation per tweet; end conversation-posts with an answerable question.
+- **Teach or reveal something concrete** — a lesson, a number, a thing learned the
+  hard way. People follow accounts that teach them, not accounts that quiz them.
+- One idea per tweet with a clear point of view. Let replies come from the
+  substance (a useful or slightly debatable claim), not from a tacked-on question.
 - Constructive tone (2026 Grok rewards it; throttles combative posts).
-- Build-in-public honesty (process, feedback, what broke).
+- Build-in-public honesty (process, what broke, what it cost).
 
 ## Don't
 - Corporate/marketing-speak, big hype claims, hard sells.
 - **Generic AI-influencer tweets** — hype words, fake-deep "thread 🧵" bait,
   "this changes everything". People are tired of these; they read as bot output.
 - Combative/dunking tone, engagement bait ("RT if", "follow me").
+- **A question at the end of every tweet** — it's an AI / engagement-bait tell.
+  Most tweets should *land a point or teach*, not ask. Use a real question rarely,
+  only when genuinely seeking input. Default to a confident closing line instead.
 - 3+ hashtags.
 
 ## Growth context (account < 1,000 followers)

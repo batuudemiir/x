@@ -23,7 +23,8 @@ conversation). Pair with STYLE.md (keep it real, not AI-hype).
    author-engagement loop).
 6. **Plus 1–2 quality replies** to other big takes on the same news (more surface).
 
-## Angle templates (real > hype)
+## Angle templates (real > hype, teach > ask)
+- **Lesson learned the hard way:** "en pahalı dersim şu oldu: …" (best for follows)
 - **Builder's so-what:** "tek başına app yapan biri için bunun anlamı şu: …"
 - **Tried it, honest result:** "denedim, gerçek sonuç: …" (numbers, rough edges)
 - **Overhyped / underhyped:** "herkes X diyor ama asıl olay Y"
@@ -31,6 +32,10 @@ conversation). Pair with STYLE.md (keep it real, not AI-hype).
 - **Connect two stories:** "X + Y aynı hafta çıktı; birleşince …"
 - **Vendor-risk / maker reality:** practical consequence for someone shipping solo.
 - **Contrarian-but-constructive:** disagree with the hype, kindly, with a reason.
+
+Replies should come from a strong, useful, slightly debatable point — not a
+question tacked on the end. Teaching posts still earn replies (people add their
+own experience), without the AI-formula tell.
 
 ## Rules
 - Lowercase, casual TR, one concrete idea, end conversation-posts with an
@@ -45,8 +50,9 @@ Batuhan triggers it with a one-liner — **"günlük"** (or "bugün ne var?"). T
 2. Pick 2–3 that fit the niche (AI tooling, Claude ecosystem, model releases,
    anything he's actually used).
 3. Write a **ready-to-post take** for each in his voice — lowercase TR, real,
-   no AI-hype, no hint that AI wrote it, ends with an answerable question.
-   Note which source account to **quote-tweet**.
+   no AI-hype, no hint that AI wrote it. Most posts should **teach or reveal**
+   something and close on a confident point, NOT end with a question (asking
+   every time is an AI tell). Note which source account to **quote-tweet**.
 4. If he pastes 1–3 tweets from target accounts, draft **quality replies** to them
    (I can't fetch X myself — login wall — so he pastes the tweets to reply to).
 
@@ -59,4 +65,5 @@ Output each day = "Edition N": 2–3 post-ready tweets + (optional) reply drafts
 
 ### Pre-flight check on every draft
 - Sounds like a real maker, not a bot? - No hype words / 🚀🧵? - ≤1 hashtag?
-- Nothing implying the tweet is AI-written? - Ends with something answerable (for reply-goal posts)?
+- Nothing implying the tweet is AI-written? - Does it TEACH/reveal something (not
+  just ask)? - No formulaic closing question unless genuinely wanted?
