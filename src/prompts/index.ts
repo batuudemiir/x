@@ -62,7 +62,7 @@ export function registerPrompts(server: McpServer): void {
     ({ topic, goal, format }) => {
       const goalMap: Record<string, string> = {
         reach:
-          "Goal: REACH. Optimize for out-of-network spread: strong hook, shareable insight, dwell-worthy density. Avoid links and hashtags entirely.",
+          "Goal: REACH. Optimize for out-of-network spread: strong hook, constructive tone (Grok throttles combative posts), shareable insight, dwell-worthy density. Avoid hashtag spam; links are fine in 2026 if the post earns engagement on its own.",
         replies:
           "Goal: REPLIES. The reply→author-engagement loop is worth ~150x a like. End with something genuinely answerable; the user must reply to every response in the first hour.",
         followers:
@@ -77,7 +77,7 @@ export function registerPrompts(server: McpServer): void {
           format ? `Format: ${format}.` : "",
           "",
           "## X algorithm context (ground every choice in this)",
-          guide("engagement-weights", "penalties", "practical-checklist"),
+          guide("engagement-weights", "tone", "penalties", "practical-checklist"),
           "",
           styleBlock(loadProfile(dataDir())),
           "",
@@ -110,7 +110,7 @@ export function registerPrompts(server: McpServer): void {
           angle ? `Requested angle: ${angle}` : "",
           "",
           "## X algorithm context",
-          guide("replies", "engagement-weights"),
+          guide("replies", "tone", "engagement-weights"),
           "",
           "A reply the AUTHOR then engages with is the single strongest positive signal",
           "(~150x a like). Add real value: a data point, counterexample, experience, or",
@@ -140,7 +140,7 @@ export function registerPrompts(server: McpServer): void {
           `Length: ${n_tweets ?? "4"} tweets. Goal: ${goal ?? "bookmarks"}.`,
           "",
           "## X algorithm context",
-          guide("media-and-format", "engagement-weights", "penalties"),
+          guide("media-and-format", "tone", "engagement-weights", "penalties"),
           "",
           "Rules: the first tweet is pure hook (it competes alone in the feed);",
           "one idea per tweet; no links until the final tweet; the last tweet gives a",
@@ -172,7 +172,7 @@ export function registerPrompts(server: McpServer): void {
           `> ${draft_text.split("\n").join("\n> ")}`,
           "",
           "## X algorithm context",
-          guide("engagement-weights", "penalties", "practical-checklist"),
+          guide("engagement-weights", "tone", "penalties", "practical-checklist"),
           "",
           styleBlock(loadProfile(dataDir())),
           "",
@@ -202,7 +202,7 @@ export function registerPrompts(server: McpServer): void {
           metrics ? `Reported metrics: ${metrics}` : "",
           "",
           "## X algorithm context",
-          guide("engagement-weights", "out-of-network", "recency", "penalties"),
+          guide("engagement-weights", "tone", "out-of-network", "recency", "penalties"),
           "",
           "## Output",
           "1. Which Heavy Ranker signals this tweet triggers (or fails to), and why.",

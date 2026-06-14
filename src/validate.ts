@@ -45,9 +45,12 @@ export function validateTweets(tweets: string[]): ValidationResult[] {
     }
 
     const urls = text.match(URL_RE) ?? [];
-    if (urls.length > 0 && index === 0) {
+    const textWithoutUrls = text.replace(URL_RE, "").trim();
+    if (urls.length > 0 && textWithoutUrls.length < 15) {
+      // 2026: no hard link penalty, but a bare/near-bare link still has to earn
+      // engagement on its own and predicts poorly.
       warnings.push(
-        "Link in the first/main tweet — link-only tweets are downranked. Put the link in a reply or the last thread tweet."
+        "Near link-only post — the external-link penalty was removed in 2026, but a bare link still needs context that earns replies/dwell. Add a real hook around it."
       );
     }
 
