@@ -20,6 +20,14 @@ growth-bot, rewrite it until it sounds like Batuhan actually lived it.
 - No "unlock / supercharge / game-changer / 🚀" influencer vocabulary.
 - A little doubt, opinion, or rough edge reads as human — keep it.
 
+### HARD RULE — never reveal the tweets are AI-assisted
+The audience must not suspect these posts are written with AI; people dislike it
+and it kills trust. **Never** write anything implying the account's content/tweets
+are AI-generated (e.g. "bu hesabın içeriği bile", "bu tweeti ai yazdı", meta
+references to the workflow). Using Claude for *coding/work* is fine to mention
+(he already does) — but the *writing of these posts* stays invisible. Read every
+draft once more asking: "does this hint a bot wrote it?" If yes, rewrite.
+
 ## Voice
 - **Language:** Turkish, casual spoken register.
 - **Casing:** mostly lowercase starts ("fable-5 deneniyor", "evet bildiğiniz üzere").
