@@ -39,7 +39,24 @@ conversation). Pair with STYLE.md (keep it real, not AI-hype).
 - Don't tweet about a tool you haven't touched — borrow others' takes via replies instead.
 - Consistency > volume: 1–2 sharp news takes/day + 3–5 quality replies beats bursting.
 
-## Cadence to settle with Batuhan
-- How often: daily? which time (audience online)?
-- Who delivers news: your feed, or I fetch each session?
-- Targets to reply to: list the 5–10 big AI accounts in the niche to monitor.
+## Daily flow (the ritual)
+Batuhan triggers it with a one-liner — **"günlük"** (or "bugün ne var?"). Then I:
+1. Fetch today's top AI stories (web).
+2. Pick 2–3 that fit the niche (AI tooling, Claude ecosystem, model releases,
+   anything he's actually used).
+3. Write a **ready-to-post take** for each in his voice — lowercase TR, real,
+   no AI-hype, no hint that AI wrote it, ends with an answerable question.
+   Note which source account to **quote-tweet**.
+4. If he pastes 1–3 tweets from target accounts, draft **quality replies** to them
+   (I can't fetch X myself — login wall — so he pastes the tweets to reply to).
+
+Output each day = "Edition N": 2–3 post-ready tweets + (optional) reply drafts.
+
+### Defaults (override anytime)
+- Cadence: ~1 session/day; post 1–2 takes, spaced 3–4h apart (author-diversity).
+- Best time: when his audience (TR + global makers) is online — late morning / evening TR time.
+- Reply targets: maintain a list of 5–10 big AI accounts to monitor (TODO: Batuhan to provide handles).
+
+### Pre-flight check on every draft
+- Sounds like a real maker, not a bot? - No hype words / 🚀🧵? - ≤1 hashtag?
+- Nothing implying the tweet is AI-written? - Ends with something answerable (for reply-goal posts)?
